@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+}
+
+.flex {
+    display: flex;
+    background-color: steelblue;
+    flex-direction: column;
+}
+
+.flex div {
+    background-color: black;
+    margin: 10px;
+    font-size: 30px;
+    padding: 17px;
+}
+
+#logo {
+    background-color: steelblue;
+    margin: 0;
+    padding-bottom: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    margin-left: 50px;
+    font-size: 30px;
+    letter-spacing: 1px;
+    padding-bottom: 10px;
+}
+
+.button {
+    background-color: black;
+    float: right;
+    /*padding-right: 100px;*/
+    word-spacing: 30px;
+    margin-right: 100px;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#menu {
+    background-color: grey;
+    height: 503px;
+    margin: 0px;
+    width: 97.35%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(login.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#login {
+    background-color: rgb(245, 245, 245);
+    height: 415px;
+    width: 370px;
+    float: right;
+    border-style: solid;
+    border-radius: 10px;
+    margin-right: 40px;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bolder;
+}
+
+#user {
+    background-color: darkmagenta;
+    text-align: left;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 10px;
+}
+
+#flog {
+    text-align: center;
+    background-color: rgb(69, 178, 180);
+    border-radius: 70px;
+    font-family: serif;
+}
+
+#forget {
+    text-decoration: underline;
+    background-color: aquamarine;
+    border-radius: 20px;
+}
